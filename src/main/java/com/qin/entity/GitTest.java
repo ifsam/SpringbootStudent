@@ -13,6 +13,6 @@ public class GitTest {
     private String tel;
 
     public void print(){
-        System.out.println("版本001");
+        System.out.println("版本002");
     }
 }
