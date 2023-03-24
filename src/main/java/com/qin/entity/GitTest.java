@@ -11,4 +11,8 @@ public class GitTest {
     private String name;
 
     private String tel;
+
+    public void print(){
+        System.out.println("版本001");
+    }
 }
