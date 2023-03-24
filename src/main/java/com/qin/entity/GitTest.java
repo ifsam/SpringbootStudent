@@ -9,4 +9,6 @@ import lombok.Data;
 @Data
 public class GitTest {
     private String name;
+
+    private String tel;
 }
