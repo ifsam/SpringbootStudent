@@ -180,19 +180,7 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="branch01" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -217,6 +205,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1678632762194" />
+    <state x="544" y="299" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1679670988372">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="544" y="299" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1679670988372" />
     <state x="78" y="53" width="1350" height="678" key="DiffContextDialog" timestamp="1679667106582">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -265,22 +257,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="507" y="152" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1678621461612" />
-    <state x="270" y="13" key="SettingsEditor" timestamp="1679667022912">
+    <state x="270" y="13" key="SettingsEditor" timestamp="1679671810724">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1679667022912" />
+    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1679671810724" />
+    <state x="988" y="187" key="VCS.ChangeListViewerDialog" timestamp="1679671050540">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="988" y="187" key="VCS.ChangeListViewerDialog/0.0.1536.864@0.0.1536.864" timestamp="1679671050540" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1679667084053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1679667084053" />
-    <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1679666543572">
+    <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1679671781433">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1679666543572" />
-    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1679667072602">
+    <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1679671781433" />
+    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1679671682977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1679667072602" />
+    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1679671682977" />
+    <state x="548" y="326" key="git4idea.ui.GitResetDialog" timestamp="1679671069140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="326" key="git4idea.ui.GitResetDialog/0.0.1536.864@0.0.1536.864" timestamp="1679671069140" />
     <state x="424" y="86" width="672" height="676" key="search.everywhere.popup" timestamp="1679668359740">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
