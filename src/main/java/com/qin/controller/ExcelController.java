@@ -20,10 +20,8 @@ public class ExcelController {
     ExcelService excelService;
 
     @PostMapping("/down")
-    public String excelDown(HttpServletResponse res,@RequestBody @RequestParam(value = "fileName", required = false)String fileName,@RequestBody List<String> data){// @RequestBody List<String> data
-       System.out.println("==============="+data);
-        ArrayList<Student> students = new ArrayList<>();
-        excelService.excelWrite(res,fileName,students);
+    public String excelDown(HttpServletResponse res,@RequestBody String data){
+        excelService.excelWrite(res,data);
         return "success";
     }
 

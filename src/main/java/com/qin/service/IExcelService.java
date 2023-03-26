@@ -5,5 +5,5 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 public interface IExcelService {
-    void excelWrite(HttpServletResponse res, String fileName, List<?> data);
+    void excelWrite(HttpServletResponse res, String data);
 }

@@ -4,6 +4,9 @@ package com.qin.service.impl;
  * @date 2023/3/12 19:25
  * */
 
+import cn.hutool.json.JSONArray;
+import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
 import com.alibaba.excel.util.ListUtils;
 import com.qin.entity.Student;
 import com.qin.service.IExcelService;
@@ -20,9 +23,11 @@ public class ExcelService implements IExcelService {
     ExcelUtil excelUtill;
 
     @Override
-    public void excelWrite(HttpServletResponse res, String fileName, List data) {
-        System.out.println("执行写1````");
-        excelUtill.excelWrite(res,fileName,data());
+    public void excelWrite(HttpServletResponse res, String data) {
+        JSONObject objects = JSONUtil.parseObj(data);
+        String fileName = objects.getStr("fileName");
+        List<Student> Students = objects.getBeanList("data",Student.class);
+        excelUtill.excelWrite(res,fileName,Students);
     }
 
     public void excelWrite2(HttpServletResponse res) {
